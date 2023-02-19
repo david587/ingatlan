@@ -1,3 +1,12 @@
+/*
+* File: MainConsole.java
+* Author: Baráth Dávid
+* Copyright: 2023, Baráth Dávid
+* Group: Szoft 2 N
+* Date: 2023-02-19
+* Github: https://github.com/david587/
+* Licenc: GNU GPL
+*/
 package views;
 
 import java.util.ArrayList;
