@@ -3,10 +3,10 @@ package models;
 public class Properties {
     String city;
     String address;
-    Double size;
+    String size;
     Double price;
     
-    public Properties(String city, String address, Double size, Double price) {
+    public Properties(String city, String address, String size, Double price) {
         this.city = city;
         this.address = address;
         this.size = size;
@@ -24,10 +24,10 @@ public class Properties {
     public void setAddress(String address) {
         this.address = address;
     }
-    public Double getSize() {
+    public String getSize() {
         return size;
     }
-    public void setSize(Double size) {
+    public void setSize(String size) {
         this.size = size;
     }
     public Double getPrice() {

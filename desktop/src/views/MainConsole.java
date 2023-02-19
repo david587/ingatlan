@@ -10,11 +10,11 @@ public class MainConsole {
     {
         for(Properties pro : pros){
             System.out.printf(
-            "|%15s |%15s |%15s | %8.0f |\n",
+            "|%17s |%17s |%17s | %8.0f |\n",
             pro.getCity(),
             pro.getAddress(),
             pro.getSize(),
-            pro.getAddress()
+            pro.getPrice()
             );
         }
     }
